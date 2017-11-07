@@ -1,0 +1,92 @@
+#Header, #intro, #musicHolder, #canadianSlang
+{
+	display:inline-block;
+}
+
+#intro
+{
+	margin-bottom: 20px;
+}
+
+#vidHolder
+{
+	margin:auto;
+	width:90%;
+}
+
+#mv2
+{
+	
+	width:300px;
+	height:150px;
+}
+
+p
+{
+	max-width:980px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	font-size:20px;
+}
+
+#Wall
+{
+	display:inline-block;
+	width:920px;
+	height:610px;
+	position:relative;
+	margin-top:20px;
+}
+
+.two
+{
+	opacity:0;
+}
+
+.img, .picture
+{
+	position:absolute;
+}
+
+.frame1
+{
+	
+}
+
+.frame2
+{
+	left:310px;
+}
+
+.frame3
+{
+	left:620px;
+}
+
+.frame4
+{
+	top:310px;
+}
+
+#rememberingChrisImg{
+	height: 450px;
+	display: block;
+	margin: auto;
+}
+
+#rememberingChris{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#rememberingChrisImgHeader, #rememberingChrisImgBody, #rememberingChrisArrangements{
+	text-align: center;
+}
+
+#rememberingChris{
+	background: rgba(50,50,50,0.5);
+	border: 1px solid rgb(200,200,200);
+	width: 80%;
+	margin: auto;
+}

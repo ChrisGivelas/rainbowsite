@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+body
+{
+	background-image: url("background.jpg");
+	font-family: 'Fredoka One', cursive;
+	color:white;
+	text-align:center;
+}
+
+#LOGO
+{
+	width:300px;
+	
+}
+
+.Head
+{
+	width:150px;
+	height:75px;
+}
+
+.socialMedia
+{
+	height:30px;
+	width:30px;
+	border-radius:5px;
+	margin:5px;
+}
+
+.Head:hover,.socialMedia:hover
+{
+	opacity:0.8;
+}
+
+#socialMediaBox
+{
+	text-align:center;
+}
+
+#MenuTabs
+{
+	display:inline-block;
+}
+
+#BottomMenu
+{
+	margin-top:10px;
+}
+
+.bottomLink
+{
+	color:white;
+	margin-right:25px;
+}
+
+.framed
+{
+	border:20px solid transparent;
+	-webkit-border-image: url('Frame.jpg') 20 round;
+	border-image: url('Frame.jpg') 20 round;
+}
