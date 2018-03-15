@@ -1,24 +1,7 @@
-#Header, #intro, #musicHolder, #canadianSlang
-{
-	display:inline-block;
-}
-
-#intro
-{
-	margin-bottom: 20px;
-}
-
 #vidHolder
 {
 	margin:auto;
 	width:90%;
-}
-
-#mv2
-{
-	
-	width:300px;
-	height:150px;
 }
 
 p
