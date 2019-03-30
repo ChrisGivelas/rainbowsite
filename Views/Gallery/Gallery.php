@@ -40,6 +40,10 @@
 				}
 			?>
 		</div>
+
+		<div class="foodServices">
+			<img id="skip-the-dishes" src="../_shared/skipthedishes-logo.jpg"/>
+		</div>
 		
 		<div id="BottomMenu" align="center">       
 			<a class="bottomLink" href="../Home/Home.html">Home</a>
