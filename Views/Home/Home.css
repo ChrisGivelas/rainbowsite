@@ -52,24 +52,3 @@ p
 {
 	top:310px;
 }
-
-#rememberingChrisImg{
-	height: 450px;
-	display: block;
-	margin: auto;
-}
-
-#rememberingChris{
-	font-family: 'Times New Roman', Times, serif;
-}
-
-#rememberingChrisImgHeader, #rememberingChrisImgBody, #rememberingChrisArrangements{
-	text-align: center;
-}
-
-#rememberingChris{
-	background: rgba(50,50,50,0.5);
-	border: 1px solid rgb(200,200,200);
-	width: 80%;
-	margin: auto;
-}

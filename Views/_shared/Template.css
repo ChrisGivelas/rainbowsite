@@ -62,3 +62,12 @@ body
 	-webkit-border-image: url('Frame.jpg') 20 round;
 	border-image: url('Frame.jpg') 20 round;
 }
+
+.foodServices{
+	margin: 15px;
+}
+
+#skip-the-dishes{
+	width: 150px;
+	border-radius: 2px;
+}
