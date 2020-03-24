@@ -2,39 +2,56 @@
 
 #wall
 {
-	width:70%;
-	margin-top:10px;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
+	display: grid;
+	grid-template-columns: 4fr 1fr 4fr;
+	grid-template-rows: auto;
+	grid-template-areas: "pic . blurb" ;
+
+	width: 70%;
+	margin: auto;
+}
+
+@media screen and (max-width: 1175px) {
+	#wall
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#FatherAndSon
+	{
+		max-width: 50%;
+		max-height: 100%;
+		margin-bottom: 30px;
+	}
 }
 
 #FatherAndSon
 {
-	display:inline-block;
-}
-
-#blurbDiv
-{
-	display:inline-block;
-	width:400px;
-	height:600px;
-	float:right;
-	background-color: black;
+	grid-area: pic;
+	justify-self: right;
 }
 
 #blurb
 {
-	text-align:justify;
-	padding:10px;
-	
+	grid-area: blurb;
+	background-color: black;
+	text-align: justify;
+	padding: 10px;
+
+	/* 60 PX is (20px frame border * 2) + (10px padding * 2) */
+	height: calc(100% - 60px);
+	margin: 0px;
+	max-width: 400px;
+	min-width: 300px;
 }
 
 #articleHolder
 {
-	text-align:center;
-	width:900px;
-	margin:auto;
+	text-align: center;
+	width: 900px;
+	margin: auto;
 }
 
 .article

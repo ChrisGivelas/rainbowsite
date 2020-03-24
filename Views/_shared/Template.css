@@ -73,7 +73,7 @@ body
 }
 
 .alert {
-    width: 1002px;
+    width: 70%;
     background: rgba(255, 255, 255, 0.8);
     padding: 15px;
     font-size: 1.25rem;
