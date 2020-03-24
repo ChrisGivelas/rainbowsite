@@ -71,3 +71,23 @@ body
 	width: 150px;
 	border-radius: 2px;
 }
+
+.alert {
+    width: 1002px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    font-size: 1.25rem;
+    margin: auto;
+	margin-top: 15px;
+	text-align: left;
+}
+
+.alert.primary {
+    border: 2px solid #10993b;
+    color: #10993b;
+}
+
+.alert.warning {
+    border: 2px solid red;
+    color: red;
+}
