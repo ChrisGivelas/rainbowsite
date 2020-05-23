@@ -58,9 +58,9 @@ body
 
 .framed
 {
-	border:20px solid transparent;
-	-webkit-border-image: url('Frame.jpg') 20 round;
-	border-image: url('Frame.jpg') 20 round;
+	border:20px solid transparent !important;
+	-webkit-border-image: url('Frame.jpg') 20 round !important;
+	border-image: url('Frame.jpg') 20 round !important;
 }
 
 .foodServices{
@@ -78,7 +78,6 @@ body
     padding: 15px;
     font-size: 1.25rem;
     margin: auto;
-	margin-top: 15px;
 	text-align: left;
 }
 

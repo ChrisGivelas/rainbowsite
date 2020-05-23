@@ -30,25 +30,6 @@
 				<a href="https://www.youtube.com/channel/UC3mV9SNWCoT2wfy-CKyb6Pw" target="_blank"><img class="socialMedia" src="../_shared/youtube-logo.png"/></a>
 			</div>
 		</div>
-
-		<p class="alert warning" style="margin-bottom: 45px;">
-			Due to the crisis that we are all now experiencing, the Rainbow's hours have changed:
-			<br/>
-			<br/>
-			Weekdays: Closed.
-			<br/>
-			Saturday & Sunday: Take-out, pick-up, SkipTheDishes, and UberEats from 8am - 1pm (Breakfast menu only). 
-			<br />
-			<br/>
-            This change is temporary until the crisis is over, and we can once again begin serving the best food around!
-			Everybody take care and be safe!
-			<br/>
-			<br/>
-			Love,
-			<br/>
-			<br/>
-			The Rainbow Restaurant Family
-        </p>
 		
 		<div id="pictureHolder">
 			<?php
