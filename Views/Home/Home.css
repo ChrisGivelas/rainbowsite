@@ -8,10 +8,6 @@
 	margin-bottom: 15px;
 }
 
-#vidHolder > .framed:last-child {
-	margin-bottom: 0px;
-}
-
 p
 {
 	max-width:980px;
