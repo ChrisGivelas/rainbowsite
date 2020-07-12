@@ -2,19 +2,29 @@
 
 #wall
 {
-	text-align:center;
+	text-align: center;
+	width: 80%;
+	margin: auto;
 }
 
-.MENU
+.menu-container {
+	cursor: pointer;
+}
+
+.menu
 {
-	margin-top:20px;	
+	max-width: 100%;
+}
+
+.menu:last-child {
+	margin-top: 40px;
 }
 
 #warning
 {
-	width:400px;
-	margin:auto;
-	color:white;
-	margin-top:20px;
-	text-align:center;
+	width: 400px;
+	margin: auto;
+	color: white;
+	margin-top: 20px;
+	text-align: center;
 }
