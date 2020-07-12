@@ -2,13 +2,14 @@
 
 #wall
 {
-	display: grid;
-	grid-template-columns: 4fr 1fr 4fr;
-	grid-template-rows: auto;
-	grid-template-areas: "pic . blurb" ;
-
 	width: 70%;
-	margin: auto;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 45px;
 }
 
 @media screen and (max-width: 1175px) {
@@ -25,26 +26,29 @@
 		max-height: 100%;
 		margin-bottom: 30px;
 	}
+
+	#blurb
+	{
+		margin: 0px;
+	}
 }
 
 #FatherAndSon
 {
-	grid-area: pic;
-	justify-self: right;
+	display:inline-block;
+	margin-right: 8px;
 }
 
 #blurb
 {
-	grid-area: blurb;
+	display:inline-block;
+	width: 400px;
+	height: 600px;
 	background-color: black;
-	text-align: justify;
-	padding: 10px;
-
-	/* 60 PX is (20px frame border * 2) + (10px padding * 2) */
-	height: calc(100% - 60px);
-	margin: 0px;
-	max-width: 400px;
-	min-width: 300px;
+	margin-left: 8px;
+	padding: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #articleHolder
