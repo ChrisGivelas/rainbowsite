@@ -11,23 +11,21 @@
 	</head>
 	
 	<body>
-		<div id="Header">
-			<table id="MenuTabs">
-				<tr>
-					<td><a href="../Home/Home.html"><img id="LOGO" src="../_shared/RainbowLogo.png"/></a></td>
-					<td><a href="../Home/Home.html"><img class="Head" src="../_shared/Home.png"/></a></td>
-					<td><a href="../Menu/Menu.html"><img class="Head" src="../_shared/Menu.png"/></a></td>
-					<td><a href="../Connect/Connect.html"><img class="Head" src="../_shared/Connect.png"/></a></td>
-					<td><a href="../About/About.html"><img class="Head" src="../_shared/About.png"/></a></td>
-					<td><a href="../Gallery/Gallery.php"><img class="Head" src="../_shared/Gallery.png"/></a></td>
-				</tr>
-			</table>
+		<div id="nav-bar">
+			<div id="nav">
+				<a class="nav-item-container" href="../Home/Home.html"><img class="nav-item" src="../_shared/RainbowLogo.png"/></a>
+				<a class="nav-item-container" href="../Home/Home.html"><img class="nav-item" src="../_shared/Home.png"/></a>
+				<a class="nav-item-container" href="../Menu/Menu.html"><img class="nav-item" src="../_shared/Menu.png"/></a>
+				<a class="nav-item-container" href="../Connect/Connect.html"><img class="nav-item" style="transform: scale(1.2, 1.2) translate(5px);" src="../_shared/Connect.png"/></a>
+				<a class="nav-item-container" href="../About/About.html"><img class="nav-item" src="../_shared/About.png"/></a>
+				<a class="nav-item-container" href="../Gallery/Gallery.php"><img class="nav-item" src="../_shared/Gallery.png"/></a>
+			</div>
 			
-			<div id="socialMediaBox">
-				<a href="https://www.facebook.com/RainbowRestaurantOshawa" target="_blank"><img class="socialMedia" src="../_shared/Facebook logo.png"/></a>
-				<a href="https://twitter.com/cheflouieg" target="_blank"><img class="socialMedia" src="../_shared/twitter-logo.png"/></a>
-				<a href="https://www.instagram.com/cheflouieg" target="_blank"><img class="socialMedia" src="../_shared/instagram-logo.png"/></a>
-				<a href="https://www.youtube.com/channel/UC3mV9SNWCoT2wfy-CKyb6Pw" target="_blank"><img class="socialMedia" src="../_shared/youtube-logo.png"/></a>
+			<div id="social-media-nav">
+				<a href="https://www.facebook.com/RainbowRestaurantOshawa" target="_blank"><img class="social-media" src="../_shared/Facebook logo.png"/></a>
+				<a href="https://twitter.com/cheflouieg" target="_blank"><img class="social-media" src="../_shared/twitter-logo.png"/></a>
+				<a href="https://www.instagram.com/cheflouieg" target="_blank"><img class="social-media" src="../_shared/instagram-logo.png"/></a>
+				<a href="https://www.youtube.com/channel/UC3mV9SNWCoT2wfy-CKyb6Pw" target="_blank"><img class="social-media" src="../_shared/youtube-logo.png"/></a>
 			</div>
 		</div>
 		
