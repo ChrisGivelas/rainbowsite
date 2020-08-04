@@ -80,10 +80,19 @@ body
 	margin: 15px;
 }
 
-#skip-the-dishes
+#skip-the-dishes, #uber-eats
 {
 	width: 150px;
 	border-radius: 2px;
+	padding: 5px;
+}
+
+#skip-the-dishes {
+	background-color: rgb(230, 20, 45);
+}
+
+#uber-eats {
+	background-color: rgb(0, 0, 0);
 }
 
 .alert
