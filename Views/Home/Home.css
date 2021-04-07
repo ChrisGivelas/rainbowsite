@@ -4,10 +4,6 @@
 	width:90%;
 }
 
-#vidHolder > .framed {
-	margin-bottom: 15px;
-}
-
 p
 {
 	max-width:980px;
@@ -55,4 +51,9 @@ p
 .frame4
 {
 	top:310px;
+}
+
+.homepage-video {
+	width: 600px;
+	height: 345px;
 }
