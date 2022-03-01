@@ -7,23 +7,13 @@ body {
     font-family: "Fredoka", sans-serif;
     color: white;
     text-align: center;
-    min-width: 960px;
+    min-width: 1140px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.social-media {
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;
-    margin: 5px;
-}
-
-.nav-item:hover,
-.social-media:hover {
+.nav-item:hover {
     opacity: 0.8;
-}
-
-#social-media {
-    text-align: center;
 }
 
 #nav {
@@ -50,15 +40,6 @@ body {
     height: auto;
 }
 
-#footer {
-    margin-top: 10px;
-}
-
-.footer-nav-link {
-    color: white;
-    margin-right: 25px;
-}
-
 .framed {
     border: 20px solid transparent !important;
     -webkit-border-image: url("Frame.jpg") 20 round !important;
@@ -67,24 +48,13 @@ body {
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.foodServices {
-    margin: 15px;
+.framed-top-only {
+    border-top: 20px solid transparent !important;
+    -webkit-border-image: url("Frame.jpg") 20 round !important;
+    border-image: url("Frame.jpg") 20 round !important;
 }
 
-#skip-the-dishes,
-#uber-eats {
-    width: 150px;
-    border-radius: 2px;
-    padding: 5px;
-}
-
-#skip-the-dishes {
-    background-color: rgb(230, 20, 45);
-}
-
-#uber-eats {
-    background-color: rgb(0, 0, 0);
-}
+/** =================== Alerts =================== **/
 
 .alert {
     width: 70%;
@@ -103,4 +73,106 @@ body {
 .alert.warning {
     border: 2px solid red;
     color: red;
+}
+
+/** =================== Footer =================== **/
+
+#footer {
+    display: grid;
+    grid-template-rows: 1fr 100px;
+    height: 40vh;
+    min-height: 280px;
+    background-color: #5c544c;
+    margin-top: 10px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.footer-content-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.dine-with-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-nav-link {
+    color: white;
+    font-size: 20px;
+    text-decoration-line: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    width: min-content;
+}
+
+.order-online {
+    display: flex;
+    flex-direction: column;
+}
+
+#skip-the-dishes,
+#uber-eats {
+    width: 150px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#skip-the-dishes {
+    background-color: rgb(230, 20, 45);
+}
+
+#uber-eats {
+    background-color: rgb(0, 0, 0);
+}
+
+.rate-us > p {
+    text-align: center;
+}
+
+.rate-us-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tripadvisor {
+    margin-right: 20px;
+}
+
+.social-media-nav {
+    margin-top: 10px;
+}
+
+.social-media {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.social-media:hover {
+    opacity: 0.8;
+}
+
+.footer-logo {
+    align-self: center;
+}
+
+.footer-logo > img {
+    width: 300px;
+}
+
+#sub-footer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #47433f;
 }

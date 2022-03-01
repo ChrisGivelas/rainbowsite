@@ -3,15 +3,6 @@
     width: 90%;
 }
 
-p {
-    max-width: 980px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
-    font-size: 20px;
-}
-
 #wall {
     display: inline-block;
     width: 920px;
