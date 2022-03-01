@@ -88,14 +88,13 @@ body {
 
 .footer-content {
     display: grid;
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.footer-content-main {
+/* .footer-content-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-}
+} */
 
 .dine-with-us {
     display: flex;
@@ -121,24 +120,28 @@ body {
 #uber-eats {
     width: 150px;
     border-radius: 2px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #skip-the-dishes {
     background-color: rgb(230, 20, 45);
+    margin-bottom: 5px;
 }
 
 #uber-eats {
     background-color: rgb(0, 0, 0);
 }
 
+.dine-with-us > p,
+.order-online > p,
 .rate-us > p {
     text-align: center;
+    font-size: 20px;
 }
 
 .rate-us-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -172,6 +175,7 @@ body {
 #sub-footer {
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #47433f;

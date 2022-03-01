@@ -20,13 +20,6 @@
 				<a class="nav-item-container" href="../About/About.html"><img class="nav-item" src="../_shared/About.png"/></a>
 				<a class="nav-item-container" href="../Gallery/Gallery.php"><img class="nav-item" src="../_shared/Gallery.png"/></a>
 			</div>
-			
-			<div id="social-media-nav">
-				<a href="https://www.facebook.com/RainbowRestaurantOshawa" target="_blank"><img class="social-media" src="../_shared/Facebook logo.png"/></a>
-				<a href="https://twitter.com/cheflouieg" target="_blank"><img class="social-media" src="../_shared/twitter-logo.png"/></a>
-				<a href="https://www.instagram.com/cheflouieg" target="_blank"><img class="social-media" src="../_shared/instagram-logo.png"/></a>
-				<a href="https://www.youtube.com/channel/UC3mV9SNWCoT2wfy-CKyb6Pw" target="_blank"><img class="social-media" src="../_shared/youtube-logo.png"/></a>
-			</div>
 		</div>
 		
 		<div id="pictureHolder">
@@ -41,7 +34,6 @@
 
 		<div id="footer" class="framed-top-only">
             <div class="footer-content">
-                <div class="footer-content-main">
                     <div class="dine-with-us">
                         <p>Dine in!</p>
                         <a class="footer-nav-link" href="../Home/Home.html">Home</a>
@@ -193,13 +185,13 @@
                             /></a>
                         </div>
                     </div>
-                </div>
                 <div class="footer-logo">
                     <img src="../_shared/RainbowLogo.png" />
                 </div>
             </div>
 
             <div id="sub-footer">
+                <p>Note: We accept Debit and Cash, and have an ATM on site for your convenience!</p>
                 <a id="copyright"><span>&copy;</span> Rainbow Restaurant 2022 </a>
             </div>
         </div>
