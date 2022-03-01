@@ -18,7 +18,7 @@
         align-items: center;
     }
 
-    #FatherAndSon {
+    #father-and-son {
         max-width: 50%;
         max-height: 100%;
         margin-bottom: 30px;
@@ -29,7 +29,7 @@
     }
 }
 
-#FatherAndSon {
+#father-and-son {
     display: inline-block;
     margin-right: 8px;
 }
@@ -45,7 +45,7 @@
     margin-bottom: 0px;
 }
 
-#articleHolder {
+#article-holder {
     text-align: center;
     width: 900px;
     margin: auto;
