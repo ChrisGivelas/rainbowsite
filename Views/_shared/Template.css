@@ -91,11 +91,6 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-/* .footer-content-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-} */
-
 .dine-with-us {
     display: flex;
     flex-direction: column;
