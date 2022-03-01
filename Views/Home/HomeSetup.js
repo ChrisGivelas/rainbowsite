@@ -26,3 +26,8 @@ function slideshowCreator(lastPic, folder, id1, id2, interval, delay) {
         }
     }, interval);
 }
+
+slideshowCreator(15, "Frame1", "img11", "img12", 2500, 500);
+slideshowCreator(15, "Frame2", "img21", "img22", 3500, 500);
+slideshowCreator(12, "Frame3", "img31", "img32", 4500, 500);
+slideshowCreator(15, "Frame4", "img41", "img42", 5500, 500);
