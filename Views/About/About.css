@@ -45,16 +45,46 @@
     margin-bottom: 0px;
 }
 
-#article-holder {
-    text-align: center;
-    width: 900px;
-    margin: auto;
+.article-container {
+    width: fit-content;
 }
 
-.article {
-    margin: 10px;
+.article1 {
+    grid-area: article1;
+}
+.article2 {
+    margin-top: 20px;
+    grid-area: article2;
+}
+.article3 {
+    grid-area: article3;
+}
+.article4 {
+    margin-top: -20px;
+    grid-area: article4;
+}
+.article5 {
+    grid-area: article5;
+}
+.article6 {
+    grid-area: article6;
+}
+
+#articles {
+    padding-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 170px 170px 170px 170px;
+    grid-template-areas:
+        "article1 article3"
+        "article1 article2"
+        "article4 article2"
+        "article5 article6";
 }
 
 .article:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
