@@ -1,59 +1,50 @@
-#vidHolder
-{
-	margin:auto;
-	width:90%;
+#vidHolder {
+    margin: auto;
+    width: 90%;
 }
 
-p
-{
-	max-width:980px;
-	margin-bottom:20px;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:justify;
-	font-size:20px;
+p {
+    max-width: 980px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 20px;
 }
 
-#Wall
-{
-	display:inline-block;
-	width:920px;
-	height:610px;
-	position:relative;
-	margin-top:20px;
+#Wall {
+    display: inline-block;
+    width: 920px;
+    height: 610px;
+    position: relative;
+    margin-top: 20px;
 }
 
-.two
-{
-	opacity:0;
+.two {
+    opacity: 0;
 }
 
-.img, .picture
-{
-	position:absolute;
+.img,
+.picture {
+    position: absolute;
 }
 
-.frame1
-{
-	
+.frame1 {
 }
 
-.frame2
-{
-	left:310px;
+.frame2 {
+    left: 310px;
 }
 
-.frame3
-{
-	left:620px;
+.frame3 {
+    left: 620px;
 }
 
-.frame4
-{
-	top:310px;
+.frame4 {
+    top: 310px;
 }
 
 .homepage-video {
-	width: 600px;
-	height: 345px;
+    width: 600px;
+    height: 345px;
 }

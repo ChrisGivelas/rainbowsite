@@ -44,13 +44,13 @@
 			<a href="https://www.ubereats.com/ca/toronto/food-delivery/rainbow-restaurant/78GOD9i2TYCzpuhViO-2cg" target="_blank"><img id="uber-eats" src="../_shared/ubereats-logo.png"/></a>
 		</div>
 		
-		<div id="BottomMenu">       
-			<a class="bottomLink" href="../Home/Home.html">Home</a>
-			<a class="bottomLink" href="../Menu/Menu.html">Menu</a>
-			<a class="bottomLink" href="../Connect/Connect.html">Connect</a>
-			<a class="bottomLink" href="../About/About.html">About</a>
-			<a class="bottomLink" href="../Gallery/Gallery.php">Gallery</a><br><br>
-			<a id="copyRight" class="bottomLink"><span>&copy;</span> Rainbow Restaurant 2020 </a>
+		<div id="footer">       
+			<a class="footer-nav-link" href="../Home/Home.html">Home</a>
+			<a class="footer-nav-link" href="../Menu/Menu.html">Menu</a>
+			<a class="footer-nav-link" href="../Connect/Connect.html">Connect</a>
+			<a class="footer-nav-link" href="../About/About.html">About</a>
+			<a class="footer-nav-link" href="../Gallery/Gallery.php">Gallery</a><br><br>
+			<a id="copyRight" class="footer-nav-link"><span>&copy;</span> Rainbow Restaurant 2020 </a>
 		</div>
 		<script src="../_shared/setLogoFlicker.js"></script>
 	</body>
