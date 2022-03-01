@@ -21,6 +21,26 @@
 				<a class="nav-item-container" href="../Gallery/Gallery.php"><img class="nav-item" src="../_shared/Gallery.png"/></a>
 			</div>
 		</div>
+
+		<div style="width: 80%; margin: auto; margin-bottom: 45px; min-width: 500px">
+            <div
+                class="alert warning framed"
+                style="
+                    margin-top: 15px;
+                    width: 50%;
+                    min-width: 500px;
+                    max-height: 100%;
+                    display: inline-block;
+                    vertical-align: top;
+                "
+            >
+                <p style="padding: 15px; text-align: left">
+                    Please note that during Government mandated Lockdowns due to the Covid19
+                    pandemic, our hours may vary. We apologize for any inconveniences this may
+                    cause.
+                </p>
+            </div>
+        </div>
 		
 		<div id="pictureHolder">
 			<?php
