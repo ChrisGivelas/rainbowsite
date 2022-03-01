@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="rate-us">
-                    <p>Support us!</p>
+                    <p>Leave a review or follow us on social media!</p>
                     <div class="rate-us-items">
                         <div class="tripadvisor">
                             <div id="TA_cdsratingsonlynarrow133" class="TA_cdsratingsonlynarrow">
