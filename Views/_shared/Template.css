@@ -47,12 +47,16 @@ body {
     border-image: url("Frame.jpg") 20 round !important;
     -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 20px;
 }
 
 .framed-top-only {
     border-top: 20px solid transparent !important;
     -webkit-border-image: url("Frame.jpg") 20 round !important;
     border-image: url("Frame.jpg") 20 round !important;
+    border-top-style: solid;
+    border-top-width: 20px;
 }
 
 /** =================== Alerts =================== **/
