@@ -39,6 +39,29 @@
 
 #soundcloud {
     margin-top: 20px;
-    margin: auto;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+#soundcloud iframe {
+    display: block; /* Removes the gap at the bottom */
+    margin-bottom: -5px; /* Further adjusts to remove any gap */
+}
+
+/* Hide the orange bar at the top of the SoundCloud player */
+#soundcloud::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 47px; /* Height of the orange bar - might need adjustment */
+    background-image: url("../_shared/background.jpg"); /* Match the site background */
+    z-index: 1;
+    pointer-events: none; /* Allows interaction with the iframe beneath */
 }
